@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/github/stars/luca-lana?style=social">
 </p>
 
-<p> Projeto para bares/restaurante onde vai ter um painel de admim para o dono do estabelecimento cadastrar os pratos, bebidas etc e a parte para os usuarios onde os clientes vão acessar e visualizar o cardapio </p>
+<p> Modelo de site para bares e restaurante onde vai ser possivel o dono do estabelecimento adicionar imagens dos pratos, bebidas colocar descrições preços e ainda colocar postagens sobre estabelecimentos em uma parte dedicada para isso. </p>
 
 <h2> Autores </h2>
 
