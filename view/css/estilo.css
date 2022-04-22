@@ -1,72 +1,210 @@
 body {
     text-align: center;
 }
-  
-
+h1{
+    font-family: candara;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
 .menu{
     margin-left: auto;
     margin-bottom: 10px;
     margin-top: 10px;
     margin-right: auto;
-    height: 60px;
-    width: 1250px;
+    height: 50px;
+    width: 1215px;
     background-color: #373737;
     align-items: center;
     position: relative;
-    border-radius: 2px;
-
+    border-radius: 1px;
+    box-shadow: 3px 3px black;
 }
 .primeira{
     width: 200px;
-    text-align: center;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
     float: inline-start;
-    margin-top: 2px;
-    margin-left: 2px;
-    color: white;
-    font-family: Apple Chancery, cursive;
 }
+.primeira:hover{
+    margin: 1px;
+    transition: 0.7;
+    width: 200px;
+    height: 45px;
+    background-color: #474747;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    float: inline-start;
+}
+
 .segunda{
     width: 200px;
-    text-align: center;
-    position: absolute;
-    margin-left: 210px;
-    margin-top: 2px;
-    color: white;
-    font-family: Apple Chancery, cursive;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
+}
+.segunda:hover{
+    margin: 1px;
+    transition: 0.7;
+    width: 200px;
+    height: 45px;
+    background-color: #474747;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    float: inline-start;
 }
 .terceira{
     width: 200px;
-    text-align: center;
-    margin-left: 416px;
-    margin-top: 2px;
-    position: absolute; 
-    color: white;
-    font-family: Apple Chancery, cursive;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
+}
+.terceira:hover{
+    margin: 1px;
+    transition: 0.7;
+    width: 200px;
+    height: 45px;
+    background-color: #474747;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    float: inline-start;
 }
 .quarta{
     width: 200px;
-    text-align: center;
-    margin-left: 616px;
-    margin-top: 2px;
-    position: absolute;
-    color: white; 
-    font-family: Apple Chancery, cursive;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
+}
+.quarta:hover{
+    width: 200px;
+    height: 45px;
+    background-color: #474747;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
 }
 .quinta{
     width: 200px;
-    text-align: center;
-    margin-left: 816px;
-    margin-top: 2px;
-    position: absolute; 
-    color: white;
-    font-family: Apple Chancery, cursive;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
+}
+.quinta:hover{
+    width: 200px;
+    height: 45px;
+    background-color: #474747;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
 }
 .sexta{
     width: 200px;
-    text-align: center;
-    margin-left: 1016px;
-    margin-top: 2px;
-    position: absolute; 
-    color: white;
-    font-family: Apple Chancery, cursive;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
+}
+.sexta:hover{
+    width: 200px;
+    height: 45px;
+    background-color: #474747;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    float: inline-start;
+}
+.cardapio{
+    height: 512px;
+    width: 1012px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgb(204, 207, 207);
+    border-radius: 1px;
+    border-color: #373737;
+    border-style: groove;
+    border-width: 10px;
+    font-family: candara;
+    font-size: larger;
+
+}
+.destaque{
+    margin-bottom: -100px;
+}
+.cardapio{
+    margin-bottom: 200px;
+}
+li{
+    margin: 13px;
+}
+.part1{
+    float: left;
+    border-style: double;
+    width: 500px;
+    height: 505px;
+    font-weight: 800;
+    text-align: left;
+    position: absolute;
+}
+.part2{
+    width: 500px;
+    height: 505px;
+    float: right;
+    border-style: double;
+    font-weight: 800;
+    float: inline-end;
+}
+.post{
+    background-color: #373737;
+    width: 1500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px black;
 }
