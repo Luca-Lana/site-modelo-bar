@@ -173,8 +173,8 @@ li{
 }
 .botaovolta {
     position: absolute;
-    
+
 }
-.botaoavanca {
-    
-}
+/* .botaoavanca {
+    position: inherit;
+} */
