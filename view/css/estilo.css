@@ -1,0 +1,180 @@
+body {
+    text-align: center;
+}
+h1{
+    font-family: candara;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.menu{
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: auto;
+    height: 50px;
+    width: 1300px;
+    background-color: #373737;
+    align-items: center;
+    position: relative;
+    border-radius: 1px;
+    box-shadow: 3px 3px black;
+}
+.primeira{
+    width: 200px;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    display: inline-block;
+}
+.primeira:hover{
+    background-color: #474747;
+}
+
+.segunda{
+    width: 200px;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    display: inline-block;
+}
+.segunda:hover{
+    background-color: #474747;
+}
+.terceira{
+    width: 200px;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    display: inline-block;
+}
+.terceira:hover{
+    background-color: #474747;
+
+}
+.quarta{
+    width: 200px;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    display: inline-block;
+}
+.quarta:hover{
+    background-color: #474747;
+}
+.quinta{
+    width: 200px;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    display: inline-block;
+}
+.quinta:hover{
+    background-color: #474747;
+}
+.sexta{
+    width: 200px;
+    height: 45px;
+    background-color: #373737;
+    font-family: candara;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    margin: 1px;
+    display: inline-block;
+}
+.sexta:hover{
+    background-color: #474747;
+}
+.cardapio{
+    height: 512px;
+    width: 1012px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: rgb(204, 207, 207);
+    border-radius: 1px;
+    border-color: #373737;
+    border-style: groove;
+    border-width: 10px;
+    font-family: candara;
+    font-size: larger;
+
+}
+.destaque{
+    margin-bottom: -100px;
+}
+.cardapio{
+    margin-bottom: 100px;
+}
+li{
+    margin: 12px;
+}
+.part1{
+    float: left;
+    border-style: double;
+    width: 500px;
+    height: 505px;
+    font-weight: 800;
+    text-align: left;
+    position: absolute;
+}
+.part2{
+    width: 500px;
+    height: 505px;
+    float: right;
+    border-style: double;
+    font-weight: 800;
+    display: block;
+    text-align: left;
+}
+.post{
+    background-color: #373737;
+    width: 1500px;
+    height: 500px;
+    box-shadow: 3px 3px black;
+    vertical-align: top;
+    margin: auto;
+    padding: 20px;
+}
+.img{
+    height: 400px;
+    width: 600px;
+    margin: 40px auto;
+    transition: background-image 2s;
+    border: 2px solid black;
+}
+.volta {
+    width: 20px;
+    height: 350px;
+}
+.botaovolta {
+    position: absolute;
+    
+}
+.botaoavanca {
+    
+}

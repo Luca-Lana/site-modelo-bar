@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href = "">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>bar e restaurante</title>
+        <script src = "/js/index.js"></script>
+    </head>
+
+    <body onload="iniciaSlider()">
+        <header>
+            <div class = "logo">
+                <img src = "logo.png"/>
+            </div>
+        </header>
+        <main>                
+            <div class = "menu" >
+                <nav>
+                    <div class="primeira">
+                        <button class="primeira">Menu</button>
+                    </div>
+                    <div class="segunda">
+                        <button class="segunda">Cardápio</button>
+                    </div>
+                    <div class="terceira">
+                        <button class="terceira">Post</button>
+                    </div>
+                    <div class="quarta">
+                        <button class="quarta">Publicações</button>
+                    </div>
+                    <div class="quinta">
+                        <button class="quinta">Alguma</button>
+                    </div>
+                    <div class="sexta">
+                        <button class="sexta">Contato</button>
+                    </div>
+                </nav>    
+            </div>
+            <div class = "destaque">
+                <img src="comida.jpg">
+            </div>
+            <div class = "cardapio">
+                <div class="part1"> 
+                    <ul>
+                        <li>x-Bacon..........................................................R$00,00</li>
+                        <li>batata frita.................................................... R$00,00</li>
+                        <li>salada.............................................................R$00,00</li>
+                        <li>macarrão........................................................R$00,00</li>
+                        <li>Feijoada..........................................................R$00,00</li>
+                        <li>Peixe frit.........................................................R$00,00</li>
+                        <li>Wafles.............................................................R$00,00</li>
+                        <li>Lasanha...........................................................R$00,00</li>
+                        <li>Strogonoff......................................................R$00,00</li>
+                        <li>Risoto..............................................................R$00,00</li>
+                        <li>Risoto..............................................................R$00,00</li>
+                        <li>Risoto..............................................................R$00,00</li>
+                    </ul>
+                </div>
+                <div class="part2">
+                    <ul class="maldita">
+                        <li>x-Bacon.........................................................R$00,00</li>
+                        <li>batata frita....................................................R$00,00</li>
+                        <li>salada..............................................................R$00,00</li>
+                        <li>macarrão.........................................................R$00,00</li>
+                        <li>Feijoada.........................................................R$00,00</li>
+                        <li>Peixe frito.......................................................R$00,00</li>
+                        <li>Wafles.............................................................R$00,00</li>
+                        <li>Lasanha...........................................................R$00,00</li>
+                        <li>Strogonoff......................................................R$00,00</li>
+                        <li>Risoto..............................................................R$00,00</li>
+                        <li>Ensopado de Frango......................................R$00,00</li>
+                        <li>Sushi.................................................................R$00,00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="post">
+                <div class="img" id="img"></div>
+                    <div class="botaovolta">
+                        <input type="button" class="volta" value="<" onclick="ant()"/>
+                    </div>
+                    <div class="botaoavanca">
+                        <input type="button" class="avanca" value=">" onclick="prox()"/> 
+                    </div>    
+            </div>      
+        </main>    
+    </body>
