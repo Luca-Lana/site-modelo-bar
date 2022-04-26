@@ -1,8 +1,11 @@
 body {
     text-align: center;
 }
-h1{
-    font-family: candara;
+h2{
+    font-size: large;
+    margin: 20px;
+    font-family: candara, cusive;
+    color: aliceblue;
 }
 .logo{
     margin-left: auto;
@@ -36,78 +39,6 @@ h1{
 .primeira:hover{
     background-color: #474747;
 }
-
-.segunda{
-    width: 200px;
-    height: 45px;
-    background-color: #373737;
-    font-family: candara;
-    color: aliceblue;
-    font-size: large;
-    border: none;
-    margin: 1px;
-    display: inline-block;
-}
-.segunda:hover{
-    background-color: #474747;
-}
-.terceira{
-    width: 200px;
-    height: 45px;
-    background-color: #373737;
-    font-family: candara;
-    color: aliceblue;
-    font-size: large;
-    border: none;
-    margin: 1px;
-    display: inline-block;
-}
-.terceira:hover{
-    background-color: #474747;
-
-}
-.quarta{
-    width: 200px;
-    height: 45px;
-    background-color: #373737;
-    font-family: candara;
-    color: aliceblue;
-    font-size: large;
-    border: none;
-    margin: 1px;
-    display: inline-block;
-}
-.quarta:hover{
-    background-color: #474747;
-}
-.quinta{
-    width: 200px;
-    height: 45px;
-    background-color: #373737;
-    font-family: candara;
-    color: aliceblue;
-    font-size: large;
-    border: none;
-    margin: 1px;
-    display: inline-block;
-}
-.quinta:hover{
-    background-color: #474747;
-}
-.sexta{
-    width: 200px;
-    height: 45px;
-    background-color: #373737;
-    font-family: candara;
-    color: aliceblue;
-    font-size: large;
-    border: none;
-    margin: 1px;
-    display: inline-block;
-}
-.sexta:hover{
-    background-color: #474747;
-}
 .cardapio{
     height: 512px;
     width: 1012px;
@@ -128,7 +59,7 @@ h1{
     margin-bottom: -100px;
 }
 .cardapio{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 li{
     margin: 12px;
@@ -152,29 +83,71 @@ li{
     text-align: left;
 }
 .post{
+    display: inline-block;
     background-color: #373737;
-    width: 1500px;
+    width: 1300px;
     height: 500px;
     box-shadow: 3px 3px black;
     vertical-align: top;
-    margin: auto;
-    padding: 20px;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/view/cozinha.png);
+    background-size: 150px;
 }
 .img{
     height: 400px;
     width: 600px;
-    margin: 40px auto;
+    margin-left: auto;
+    margin-right: auto;
     transition: background-image 2s;
-    border: 2px solid black;
+    border: 2px solid #474747;
+    position: relative;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.volta {
-    width: 20px;
-    height: 350px;
-}
-.botaovolta {
+.botao {
+    width: 35px;
+    height: 200px;
     position: absolute;
+    margin: auto;
+    opacity: 0.3;
+    background-color: #474747;
+    border: none;
 
 }
-/* .botaoavanca {
-    position: inherit;
-} */
+.botao:hover{
+    opacity: 5;
+}
+.botaovolta {
+    position: flex;
+    margin-top: 100px;
+    margin-right: 98%;
+    margin-bottom: 100px;
+    vertical-align: top;
+    display: inline-block;
+}
+.botaoavanca {
+    position: absolute;
+    display: inline-block;
+    margin-left: 92%;
+} 
+.rodape{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+/*.chef {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 13%;
+ 
+}/*

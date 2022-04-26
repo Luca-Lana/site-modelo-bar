@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <link rel="shortcut icon" href = "">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/estilo.css">
         <title>bar e restaurante</title>
-        <script src = "/js/index.js"></script>
+        <script src="js/index.js"></script>
     </head>
 
     <body onload="iniciaSlider()">
@@ -20,20 +21,20 @@
                     <div class="primeira">
                         <button class="primeira">Menu</button>
                     </div>
-                    <div class="segunda">
-                        <button class="segunda">Cardápio</button>
+                    <div class="primeira">
+                        <button class="primeira">Cardápio</button>
                     </div>
-                    <div class="terceira">
-                        <button class="terceira">Post</button>
+                    <div class="primeira">
+                        <button class="primeira">Post</button>
                     </div>
-                    <div class="quarta">
-                        <button class="quarta">Publicações</button>
+                    <div class="primeira">
+                        <button class="primeira">Publicações</button>
                     </div>
-                    <div class="quinta">
-                        <button class="quinta">Alguma</button>
+                    <div class="primeira">
+                        <button class="primeira">Alguma</button>
                     </div>
-                    <div class="sexta">
-                        <button class="sexta">Contato</button>
+                    <div class="primeira">
+                        <button class="primeira">Contato</button>
                     </div>
                 </nav>    
             </div>
@@ -74,14 +75,28 @@
                     </ul>
                 </div>
             </div>
+            <div class="chef">
+               
+            </div>
             <div class="post">
-                <div class="img" id="img"></div>
+                <h2>Postagens/Publicações</h2>
+                <div class="img" id="img">
                     <div class="botaovolta">
-                        <input type="button" class="volta" value="<" onclick="ant()"/>
+                    <input type="button" class="botao" value="<" onclick="ant()"/>
+                        <div class="botaoavanca">
+                            <input type="button" class="botao" value=">" onclick="prox()"/> 
+                        </div>
                     </div>
-                    <div class="botaoavanca">
-                        <input type="button" class="avanca" value=">" onclick="prox()"/> 
-                    </div>    
+                </div>    
             </div>      
         </main>    
+        <footer>
+            <div class="rodape">
+                <p>copyright 2022-2022 by Bar e restaurante. All rights Reserved</p><br>
+                <p>Contato - Telefone +55 DDD 9XXXX-XXXX</p>
+                <p>Instagram @bar_e_restaurante</p>
+                <p>Twitter BareRestaurante</p>
+                <p>Endereco: Rua Imaginaria, Bairro fantasia Sao paulo - SP </p>
+            </div>
+        </footer>
     </body>

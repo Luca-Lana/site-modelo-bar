@@ -26,13 +26,13 @@ function carregaFoto(foto) {
 }
 
 function prox(){
+
+    fi++;
+    if(fi>max){
+        fi=min;
+    }
+    carregaFoto("f"+fi+".jpg");
     
-        fi++;
-        if(fi>max){
-            fi=min;
-        }
-        carregaFoto("f"+fi+".jpg");
-     
 }
 function ant(){
     fi--;
