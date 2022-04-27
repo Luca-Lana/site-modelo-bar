@@ -1,5 +1,5 @@
 function preload() {
-    imgs=Array('f1.jpg', 'f2.jpg', 'f3.jpg');
+    imgs=Array("img/f1.jpg", "img/f2.jpg", "img/f3.jpg");
     imgQtde=imgs.length;
     for(i=0;i<imgQtde;i++) {
         var preloading=new Image();
@@ -13,7 +13,7 @@ function iniciaSlider() {
     min=1;
     fi=min;
     tr=true;
-    carregaFoto("f1.jpg");
+    carregaFoto("img/f1.jpg");
     document.getElementById("img").addEventListener("transitionend", fimTr);
 }
 
@@ -31,7 +31,7 @@ function prox(){
     if(fi>max){
         fi=min;
     }
-    carregaFoto("f"+fi+".jpg");
+    carregaFoto("img/f"+fi+".jpg");
     
 }
 function ant(){
@@ -39,5 +39,5 @@ function ant(){
     if(fi<min){
         fi=max;
     }
-    carregaFoto("f"+fi+".jpg");
+    carregaFoto("img/f"+fi+".jpg");
 }

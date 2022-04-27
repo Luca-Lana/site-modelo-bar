@@ -10,39 +10,25 @@
     </head>
 
     <body onload="iniciaSlider()">
-        <header>
             <div class = "logo">
-                <img src = "logo.png"/>
-            </div>
-        </header>
-        <main>                
-            <div class = "menu" >
+                <img src = "img\logo.png"/>
+            </div>             
                 <nav>
-                    <div class="primeira">
-                        <button class="primeira">Menu</button>
-                    </div>
-                    <div class="primeira">
-                        <button class="primeira">Cardápio</button>
-                    </div>
-                    <div class="primeira">
-                        <button class="primeira">Post</button>
-                    </div>
-                    <div class="primeira">
-                        <button class="primeira">Publicações</button>
-                    </div>
-                    <div class="primeira">
-                        <button class="primeira">Alguma</button>
-                    </div>
-                    <div class="primeira">
-                        <button class="primeira">Contato</button>
-                    </div>
+                   <ul class="primeira">
+                       <li><a href="#cardapio" class="teste">Cardápio</a></li>
+                       <li><a href="#postagens" class="teste">Postagens</a></li>
+                       <li><a href="#contato" class="teste">Contato</a></li>
+                   </ul>
                 </nav>    
             </div>
             <div class = "destaque">
-                <img src="/view/capa.jpg" width="940px" height="600px">
+                <div class="item"><img src="img\capa.jpg" width="500px" height="500px"></div>
+                <div class="item"><img src="img\promo.jpg" width="500px" height="500px"></div>
+                <div class="item"><img src="img/promo2.jpg" width="500px" height="500px"></div>
             </div>
             <div class = "cardapio">
                 <div class="part1"> 
+                    <a name="cardapio">
                     <ul>
                         <li>x-Bacon..........................................................R$00,00</li>
                         <li>batata frita.................................................... R$00,00</li>
@@ -75,10 +61,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="chef">
-               
+            <div class="chef">      
             </div>
             <div class="post">
+                <a name="postagens">
                 <h2>Postagens/Publicações</h2>
                 <div class="img" id="img">
                     <div class="botaovolta">
@@ -88,15 +74,13 @@
                         </div>
                     </div>
                 </div>    
-            </div>      
-        </main>    
-        <footer>
+            </div>        
             <div class="rodape">
+                <a name="contato">
                 <p>Contato - Telefone +55 DDD 9XXXX-XXXX</p>
                 <p>Instagram @bar_e_restaurante</p>
                 <p>Twitter BareRestaurante</p>
                 <p>Endereco: Rua Imaginaria, Bairro fantasia Sao paulo - SP </p>
                 <p>copyright 2022-2022 by Bar e restaurante. All rights Reserved</p><br>
             </div>
-        </footer>
     </body>
