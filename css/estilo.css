@@ -60,13 +60,14 @@ h2{
 }
 .cardapio{
     margin-bottom: 50px;
+    padding: 2px;
 }
 li{
-    margin: 12px;
+    margin: 15px;
 }
 .part1{
     float: left;
-    border-style: double;
+    border: 2px double black;
     width: 500px;
     height: 505px;
     font-weight: 800;
@@ -76,11 +77,11 @@ li{
 .part2{
     width: 500px;
     height: 505px;
-    float: right;
-    border-style: double;
+    border: 2px double black;
     font-weight: 800;
-    display: block;
+    float: right;
     text-align: left;
+    border-color: #373737;
 }
 .post{
     display: inline-block;
