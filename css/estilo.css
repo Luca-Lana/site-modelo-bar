@@ -1,7 +1,15 @@
-h2{
+.post h2{
     font-size: large;
     margin: 20px;
     font-family: candara, cusive;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+}
+.promo h2{
+    font-size: large;
+    margin-bottom: 5px;
+    font-family: candara;
     color: aliceblue;
     display: grid;
     justify-content: center;
@@ -54,6 +62,7 @@ padding 0.2s ease-in;
     list-style-type: none;
     padding: 0;
     background-color: #373737;
+    margin-bottom: 20px;
 }
 
 .dropdownMenu ul li{
@@ -68,10 +77,6 @@ padding 0.2s ease-in;
     display: inline-block;
     transition: background .3s;
 }
-    .dropdownMenu ul li a:hover{
-        background-color: #474747;
-
-    }
 
 .dropdownMenu ul ul{
     display: none;
@@ -104,25 +109,44 @@ padding 0.2s ease-in;
     margin-bottom: 50px;
     padding: 2px;
 }
-.destaque{
-    height: 520px;
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    width: 50%;
-    gap: 10px;
+.promo{
+    display: grid;
+    justify-content: center;
+    background-color: #373737;
+    width: 1242px;
+    height: 650px;
+    box-shadow: 3px 3px black;
+    vertical-align: top;
+    padding: 30px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    background-image: url(/img/cozinha.png);
+    background-size: 150px
 }
-
-.destaque>.item{
-    min-width: 100%;
-    scroll-snap-align: start;
-    height: 50px;
-    text-align: center;
-    scroll-snap-align: center;
+.destaque{
+    height: 600px;
+    display: inline-block;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(/img/promo1.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
 }
-
+.botaoVoltaPromo{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 5px;
+}
+.botaoAvancaPromo{
+    position: absolute;
+    margin-left: 959px;
+    margin-top: 190px;
+}
+.cardapio ul li{
+    margin: 20px;
+}
 .part1{
     float: left;
     border: 2px double black;
