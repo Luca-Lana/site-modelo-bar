@@ -91,4 +91,13 @@ function troca(dr){
     }
     carregaFoto("img/f"+fi+".jpg");
     tmr=setInterval(trocaFoto, 4000); 
-}   
+}  
+
+$('#cardapioNav').hover(function () {
+    console.log("aqui");
+    $('.dropDownPrincipal').addClass('menuzin');
+    
+}, function () {
+    // out
+    $('.dropDownPrincipal').removeClass('menuzin');
+});

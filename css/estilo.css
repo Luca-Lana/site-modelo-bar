@@ -84,9 +84,9 @@ padding 0.2s ease-in;
     width: 150px;
     left: 0;
 }
-   .dropdownMenu:hover ul{
+   /* .dropdownMenu:hover ul{
         display: block;
-    }
+    } */
 
     .dropdownMenu ul ul li a{
         display: block;
@@ -235,4 +235,7 @@ padding 0.2s ease-in;
     margin-left: 15%;
     margin-top: 13%;
  
-}/*
+}*/
+.menuzin {
+    display: block;
+}
